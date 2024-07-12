@@ -29,7 +29,7 @@ onValue(itemDatabase , function(snapshot){
         appendItemToShoppingListEl(currentItem)
         }}
      else{
-        itemList.innerHTML = `No Items In The Cart...`
+        itemList.innerHTML = `No Items In The Cart...<br>`
      }
 })
 
