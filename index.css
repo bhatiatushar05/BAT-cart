@@ -1,0 +1,77 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background:linear-gradient(to bottom, black 41%,white 70%);
+    height: 100%;
+    user-select: none;
+}
+img{
+    width: 240px;
+    height: 200px;
+    margin: 0px auto;
+}
+.container{
+    max-width: 320px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+}
+button{
+    background-color:   #fee202 ;
+    color: #191919 ;
+    font-size: 22px;
+    border: 3px solid #000000;
+    border-radius: 15px;
+    padding: 12px;
+    font-weight: bold;
+    font-family: 'BatmanForeverAlternate';
+    text-align: center;
+}
+input{
+    margin: 5px 0px 10px;
+    background-color:#191919;
+    color: #fee202 ;
+    font-size: 22px;
+    border: 3px solid #ffffff;
+    border-radius: 15px;
+    padding: 12px;
+    font-weight: bold;
+    font-family: 'BatmanForeverAlternate';
+    text-align: center;
+}
+@font-face {
+    font-family: 'BatmanForeverAlternate';
+    font-style: normal;
+    font-weight: normal;
+    src: local('BatmanForeverAlternate'), url('BATMAN.ttf') format('woff');
+    }
+button:active {
+    background-color:#FFD700; /* Darker green */
+    transform: scale(1); /* Slightly smaller */
+    box-shadow: -2px 2px #666; /* Shadow effect */
+    transform: translateY(-2px); /* Move button down */
+}   
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+ul li {
+    color: rgb(255, 239, 239);
+    font-size: 23px;
+    background-color:#191919;
+    padding: 15px;
+    border-radius: 12px;
+    flex-grow: 1;
+    text-align: center;
+    box-shadow: 0px 2px 2px rgb(211, 211, 211);
+    font-family:'BatmanForeverAlternate';
+    border: 2px solid wheat;
+}
+#item-list{
+    font-size: 22px;
+    font-weight: 900;
+}
